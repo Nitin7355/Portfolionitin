@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://i.postimg.cc/50F75ht7/llllllllll.png" type="image/x-icon">
+    <title>Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(3, 3, 68);
+            color: white;
+            font-family: 'poppins', sans-serif;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 80px;
+            background-color: rgb(35, 35, 93);
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            margin: 0 23px;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(175, 175, 247);
+            font-size: 1.02rem;
+        }
+
+        main hr {
+            border: 0;
+            background-color: #9c97f1;
+            height: 1.2px;
+            margin: 60px 84px;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstSection {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin: 130px 0;
+        }
+
+        .firstSection>div {
+            width: 30%;
+        }
+
+        .leftSection {
+            font-size: 3rem;
+        }
+
+        .leftSection .btn {
+            padding: 12px;
+            background-color: #1e2167;
+            color: white;
+            border: 2px solid white;
+            border-radius: 6px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .leftSection .button {
+            padding: 80px 0;
+        }
+
+        .rightSection img {
+            width: 80%;
+        }
+
+        .purple {
+            color: rgb(183, 121, 241);
+        }
+
+        .text-gray {
+            color: gray;
+        }
+
+        #element {
+            color: rgb(183, 121, 241);
+        }
+
+        .secondSection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondSection h1 {
+            font-size: 1.9rem;
+        }
+
+        .secondSection .box {
+            background: white;
+            width: 67vw;
+            height: 2px;
+            margin: 56px 0;
+            display: flex;
+        }
+
+        .secondSection .vertical {
+            height: 93px;
+            width: 1px;
+            background-color: white;
+            margin: 0 120px;
+        }
+
+        .image-top {
+            width: 25px;
+            position: relative;
+            top: -32px;
+            left: -9px;
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 75px;
+            width: 150px;
+            font-size: 14px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 86px;
+            color: gray;
+            width: 150px;
+            font-size: 11px;
+        }
+
+        footer {
+            background-color: #0e0e1a;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer ul {
+            list-style: none;
+        }
+
+        .footer>div {
+            width: 223px;
+        }
+
+        footer .footer-right {
+            text-align: center;
+            color: gray;
+            padding: 12px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">NITIN SINGH Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstSection">
+            <div class="leftSection">
+                Hi, My name is <span class="purple">Nitin singh</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                    <button class="btn">Visit Github</button>
+                </div>
+            </div>
+            <div class="rightSection">
+                <img src="https://i.postimg.cc/FssQyYp4/nitin1212.jpg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondSection">
+            <span class="text-gray">What I have a done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/Z50cy8NB/kkkkkkkkk.png" alt="">
+                    <div class="vertical-title">
+                        HTML Developer
+                    </div>
+                    <div class="vertical-desc">
+                        As an HTML Developer, my primary focus is on writing clean,
+                        semantic HTML code that accurately represents the content
+                        and structure of a web page. I am responsible for translating
+                        design concept and wireframes into functional HTML layouts that
+                        are compatible across different web browser and devices.
+                    </div>
+                </div>
+
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/ZnCdRsn7/11111.png" alt="">
+                    <div class="vertical-title">
+                        CSS Developer
+                    </div>
+                    <div class="vertical-desc">
+                        As a CSS developer, my primary responsibilty is to transform design
+                        concepts and wireframes into visually appealing and user-friendly websites.
+                        I have a strong understanding of CSS syntax, seletors, and properties,
+                        allowing to create elegant and consistent styles across different web pages.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/Mp65L2v3/aaaaaaaa.png" alt="">
+                    <div class="vertical-title">
+                        JavaScript Developer
+                    </div>
+                    <div class="vertical-desc">
+                        As a JavaScript developer, my primary focus is on writing and optimizing
+                        JavaScript code to add interactivity and enhance the functionality
+                        of web application. I am proficient in JavaScript syntax, data
+                        structure, and algorithm, enabling me to create robust and efficient
+                        code that meets project requirements.
+                    </div>
+                </div>
+                <div class="vertical">
+                    <img class="image-top" src="https://i.postimg.cc/qqBxgSWZ/nodejs-mysql.jpg" alt="">
+                    <div class="vertical-title">
+                        MySQL with - Node.js Developer
+                    </div>
+                    <div class="vertical-desc">
+                        Node. js and MySQL are some of the necessary binding needed for any web application. MySQL is
+                        one of the most popular open-source databases in the world and is efficient as well.
+                    </div>
+                    <div>
+
+                    </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h3>Nitin's Developer Portfolio</h3>
+            </div>
+            <div class="footer-Second">
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Services</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+
+            </div>
+            <div class="footer-fourth">
+
+            </div>
+        </div>
+        <div class="footer-right">
+            Copyright &#169; nitinportfolio.com |All right reserved
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Web Designer'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
